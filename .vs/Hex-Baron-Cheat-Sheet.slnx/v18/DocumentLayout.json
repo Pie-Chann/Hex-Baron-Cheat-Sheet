@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F57218BE-3B85-FB0E-58C1-A04A2D329F0B}|Main\\Main.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\main\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F57218BE-3B85-FB0E-58C1-A04A2D329F0B}|Main\\Main.csproj|solutionrelative:main\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4F6432E-650D-227A-08A0-8733AEB4B29B}|Template\\Template.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\template\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F6432E-650D-227A-08A0-8733AEB4B29B}|Template\\Template.csproj|solutionrelative:template\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06CF5989-4BCF-4B52-A5EB-D15AFBB42FB3}|HexBaronQ1\\HexBaronQ1.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\hexbaronq1\\hexbaronq1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06CF5989-4BCF-4B52-A5EB-D15AFBB42FB3}|HexBaronQ1\\HexBaronQ1.csproj|solutionrelative:hexbaronq1\\hexbaronq1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06CF5989-4BCF-4B52-A5EB-D15AFBB42FB3}|HexBaronQ1\\HexBaronQ1.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\hexbaronq1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06CF5989-4BCF-4B52-A5EB-D15AFBB42FB3}|HexBaronQ1\\HexBaronQ1.csproj|solutionrelative:hexbaronq1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F57218BE-3B85-FB0E-58C1-A04A2D329F0B}|Main\\Template.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\main\\template.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F57218BE-3B85-FB0E-58C1-A04A2D329F0B}|Main\\Template.csproj|solutionrelative:main\\template.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HexBaronQ1",
+              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
+              "RelativeDocumentMoniker": "HexBaronQ1\\HexBaronQ1.csproj",
+              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
+              "RelativeToolTip": "HexBaronQ1\\HexBaronQ1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T12:33:16.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Template.cs",
+              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Template\\Template.cs",
+              "RelativeDocumentMoniker": "Template\\Template.cs",
+              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Template\\Template.cs",
+              "RelativeToolTip": "Template\\Template.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T11:59:08.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\Program.cs",
               "RelativeDocumentMoniker": "HexBaronQ1\\Program.cs",
@@ -47,31 +73,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T12:24:34.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.csproj",
-              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Main\\Template.csproj",
-              "RelativeDocumentMoniker": "Main\\Template.csproj",
-              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Main\\Template.csproj",
-              "RelativeToolTip": "Main\\Template.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-06T12:14:06.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Template.cs",
-              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Main\\Template.cs",
-              "RelativeDocumentMoniker": "Main\\Template.cs",
-              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Main\\Template.cs",
-              "RelativeToolTip": "Main\\Template.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T11:59:08.426Z",
               "EditorCaption": ""
             }
           ]
