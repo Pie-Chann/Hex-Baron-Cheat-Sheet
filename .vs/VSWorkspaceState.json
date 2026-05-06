@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Main"
   ],
-  "SelectedNode": "\\Template",
+  "SelectedNode": "\\Main\\Template.csproj",
   "PreviewInSolutionExplorer": false
 }
