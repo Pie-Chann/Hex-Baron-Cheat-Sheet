@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "HexBaronQ2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/HexBaronQ2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HexBaronQ2.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HexBaronQ2/1.0.0": {
+      "type": "project",
+      "path": "../HexBaronQ2/HexBaronQ2.csproj",
+      "msbuildProject": "../HexBaronQ2/HexBaronQ2.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "HexBaronQ2 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\pielo\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\HexBaronQ2.csproj": {
+              "projectPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\HexBaronQ2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

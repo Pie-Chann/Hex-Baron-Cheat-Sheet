@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="HexBaronQ1/HexBaronQ1.csproj" Id="06cf5989-4bcf-4b52-a5eb-d15afbb42fb3" />
+  <Project Path="HexBaronQ2/HexBaronQ2.csproj" Id="ed96a26b-32cb-4409-bdbf-29922d7356ac" />
+  <Project Path="HexBaronQ3/HexBaronQ3.csproj" Id="388788d1-2424-4295-b4e2-39c87ee73ba8" />
   <Project Path="Template/Template.csproj" />
 </Solution>
