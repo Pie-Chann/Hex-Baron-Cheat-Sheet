@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F020A1B1-BC6C-4C24-8065-2D66818F5298}|HexBaronQ5\\HexBaronQ5.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\hexbaronq5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F020A1B1-BC6C-4C24-8065-2D66818F5298}|HexBaronQ5\\HexBaronQ5.csproj|solutionrelative:hexbaronq5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{388788D1-2424-4295-B4E2-39C87EE73BA8}|HexBaronQ3\\HexBaronQ3.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\hexbaronq3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{388788D1-2424-4295-B4E2-39C87EE73BA8}|HexBaronQ3\\HexBaronQ3.csproj|solutionrelative:hexbaronq3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27CF4F8-0169-41B6-A19F-89BCAA8BB7A1}|HexBaronQ4\\HexBaronQ4.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\hexbaronq4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27CF4F8-0169-41B6-A19F-89BCAA8BB7A1}|HexBaronQ4\\HexBaronQ4.csproj|solutionrelative:hexbaronq4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4F6432E-650D-227A-08A0-8733AEB4B29B}|Template\\Template.csproj|c:\\users\\pielo\\source\\repos\\hex-baron-cheat-sheet\\template\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HexBaronQ1.csproj",
+              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
+              "RelativeDocumentMoniker": "HexBaronQ1\\HexBaronQ1.csproj",
+              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
+              "RelativeToolTip": "HexBaronQ1\\HexBaronQ1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T12:33:16.943Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -48,37 +69,50 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ3\\Program.cs",
-              "RelativeDocumentMoniker": "HexBaronQ3\\Program.cs",
-              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ3\\Program.cs",
-              "RelativeToolTip": "HexBaronQ3\\Program.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAawGMAAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ5\\Program.cs",
+              "RelativeDocumentMoniker": "HexBaronQ5\\Program.cs",
+              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ5\\Program.cs",
+              "RelativeToolTip": "HexBaronQ5\\Program.cs",
+              "ViewState": "AgIAANQDAAAAAAAAAAAhwNgDAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T13:28:54.211Z",
+              "WhenOpened": "2026-05-20T12:59:32.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\Program.cs",
-              "RelativeDocumentMoniker": "HexBaronQ2\\Program.cs",
-              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\Program.cs",
-              "RelativeToolTip": "HexBaronQ2\\Program.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAkwFwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ4\\Program.cs",
+              "RelativeDocumentMoniker": "HexBaronQ4\\Program.cs",
+              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ4\\Program.cs",
+              "RelativeToolTip": "HexBaronQ4\\Program.cs",
+              "ViewState": "AgIAAOICAAAAAAAAAAASwNcCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T13:14:29.035Z",
+              "WhenOpened": "2026-05-20T11:16:14.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ3\\Program.cs",
+              "RelativeDocumentMoniker": "HexBaronQ3\\Program.cs",
+              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ3\\Program.cs",
+              "RelativeToolTip": "HexBaronQ3\\Program.cs",
+              "ViewState": "AgIAAPMDAAAAAAAAAAAAAAIEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:28:54.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Template.cs",
               "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Template\\Template.cs",
               "RelativeDocumentMoniker": "Template\\Template.cs",
               "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\Template\\Template.cs",
               "RelativeToolTip": "Template\\Template.cs",
-              "ViewState": "AgIAAOIDAAAAAAAAAAAiwPoDAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOMDAAAAAAAAAAAkwPoDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T11:59:08.426Z",
               "EditorCaption": ""
@@ -86,18 +120,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HexBaronQ1.csproj",
-              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
-              "RelativeDocumentMoniker": "HexBaronQ1\\HexBaronQ1.csproj",
-              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
-              "RelativeToolTip": "HexBaronQ1\\HexBaronQ1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-06T12:33:16.943Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\Program.cs",
+              "RelativeDocumentMoniker": "HexBaronQ2\\Program.cs",
+              "ToolTip": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\Program.cs",
+              "RelativeToolTip": "HexBaronQ2\\Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAkwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:14:29.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\Program.cs",
               "RelativeDocumentMoniker": "HexBaronQ1\\Program.cs",
@@ -105,8 +139,7 @@
               "RelativeToolTip": "HexBaronQ1\\Program.cs",
               "ViewState": "AgIAALIAAAAAAAAAAAAwwMoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T12:24:34.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T12:24:34.157Z"
             }
           ]
         },

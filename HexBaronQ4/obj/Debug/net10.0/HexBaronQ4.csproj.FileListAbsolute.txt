@@ -1,0 +1,15 @@
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\bin\Debug\net10.0\HexBaronQ4.exe
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\bin\Debug\net10.0\HexBaronQ4.deps.json
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\bin\Debug\net10.0\HexBaronQ4.runtimeconfig.json
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\bin\Debug\net10.0\HexBaronQ4.dll
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\bin\Debug\net10.0\HexBaronQ4.pdb
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.AssemblyInfoInputs.cache
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.AssemblyInfo.cs
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.csproj.CoreCompileInputs.cache
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.sourcelink.json
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.dll
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\refint\HexBaronQ4.dll
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.pdb
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\HexBaronQ4.genruntimeconfig.cache
+C:\Users\pielo\source\repos\Hex-Baron-Cheat-Sheet\HexBaronQ4\obj\Debug\net10.0\ref\HexBaronQ4.dll
