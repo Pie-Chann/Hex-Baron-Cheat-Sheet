@@ -1,0 +1,15 @@
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.exe
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.deps.json
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.runtimeconfig.json
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.dll
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.pdb
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.AssemblyInfoInputs.cache
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.AssemblyInfo.cs
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.csproj.CoreCompileInputs.cache
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.sourcelink.json
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.dll
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\refint\HexBaronQ5Attempt2YeahUseThisInstead.dll
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.pdb
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2YeahUseThisInstead.genruntimeconfig.cache
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\ref\HexBaronQ5Attempt2YeahUseThisInstead.dll

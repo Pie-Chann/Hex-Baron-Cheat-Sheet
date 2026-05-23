@@ -1,0 +1,15 @@
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2.exe
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2.deps.json
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2.runtimeconfig.json
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2.dll
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\bin\Debug\net10.0\HexBaronQ5Attempt2.pdb
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.AssemblyInfoInputs.cache
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.AssemblyInfo.cs
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.csproj.CoreCompileInputs.cache
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.sourcelink.json
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.dll
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\refint\HexBaronQ5Attempt2.dll
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.pdb
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\HexBaronQ5Attempt2.genruntimeconfig.cache
+C:\Users\Yui\source\repos\Hex-Baron-Cheat-Sheet-Yipee\HexBaronQ5Attempt2\obj\Debug\net10.0\ref\HexBaronQ5Attempt2.dll
