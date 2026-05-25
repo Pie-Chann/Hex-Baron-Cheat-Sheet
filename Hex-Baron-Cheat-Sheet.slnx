@@ -6,5 +6,6 @@
   <Project Path="HexBaronQ5/HexBaronQ5.csproj" Id="f020a1b1-bc6c-4c24-8065-2d66818f5298" />
   <Project Path="HexBaronQ5Attempt2/HexBaronQ5Attempt2YeahUseThisInstead.csproj" Id="85713327-6dcc-4635-a674-ec1380a7cdb1" />
   <Project Path="HexBaronQ6/HexBaronQ6.csproj" Id="efa54b3e-c400-4580-a1e7-3054b9165daa" />
+  <Project Path="HexBaronQ7/HexBaronQ7.csproj" Id="04a9d40c-bed4-4fd2-8cc6-90751f5cdfc1" />
   <Project Path="Template/Template.csproj" />
 </Solution>
