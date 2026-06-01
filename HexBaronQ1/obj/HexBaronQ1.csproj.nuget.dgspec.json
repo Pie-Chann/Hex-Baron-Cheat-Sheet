@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ1\\HexBaronQ1.csproj": {}
+    "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ1\\HexBaronQ1.csproj": {
+    "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ1\\HexBaronQ1.csproj",
+        "projectUniqueName": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
         "projectName": "HexBaronQ1",
-        "projectPath": "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ1\\HexBaronQ1.csproj",
-        "packagesPath": "C:\\Users\\Yui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ1\\obj\\",
+        "projectPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\HexBaronQ1.csproj",
+        "packagesPath": "C:\\Users\\pielo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pielo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,11 +30,10 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ2\\HexBaronQ2.csproj": {
-                "projectPath": "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ2\\HexBaronQ2.csproj"
+              "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\HexBaronQ2.csproj": {
+                "projectPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\HexBaronQ2.csproj"
               }
             }
           }
@@ -49,11 +48,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -71,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -349,20 +347,20 @@
         }
       }
     },
-    "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ2\\HexBaronQ2.csproj": {
+    "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\HexBaronQ2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ2\\HexBaronQ2.csproj",
+        "projectUniqueName": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\HexBaronQ2.csproj",
         "projectName": "HexBaronQ2",
-        "projectPath": "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ2\\HexBaronQ2.csproj",
-        "packagesPath": "C:\\Users\\Yui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yui\\source\\repos\\Hex-Baron-Cheat-Sheet-Yipee\\HexBaronQ2\\obj\\",
+        "projectPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\HexBaronQ2.csproj",
+        "packagesPath": "C:\\Users\\pielo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pielo\\source\\repos\\Hex-Baron-Cheat-Sheet\\HexBaronQ2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pielo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -375,7 +373,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -390,11 +387,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -412,7 +408,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

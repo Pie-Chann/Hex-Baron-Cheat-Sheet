@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HexBaronQ3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e75d87dfb46c7bce7781908163af2c0158b79de1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6adc48956c6523a55c5e8a7679befa2b076d1f4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HexBaronQ3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HexBaronQ3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
