@@ -37,6 +37,74 @@ namespace HexBaronCS
             }
         }
 
+        static void SaveGame(Player player1, Player player2, HexGrid grid)
+        {
+            Console.WriteLine("Enter the name of the file to save to: ");
+            string fileName = Console.ReadLine();
+            string lineForFile;
+            using (StreamWriter myStream = new StreamWriter(fileName))
+            {
+                lineForFile = (player1.GetName() + "," + player1.GetVPs() + "," + player1.GetFuel() + "," + player1.GetLumber() + "," + player1.GetPiecesInSupply());
+                myStream.WriteLine(lineForFile);
+                lineForFile = (player2.GetName() + "," + player2.GetVPs() + "," + player2.GetFuel() + "," + player2.GetLumber() + "," + player2.GetPiecesInSupply());
+                myStream.WriteLine(lineForFile);
+                myStream.WriteLine(grid.GetGridSize());
+                List<Tile> listOfTiles = grid.GetListOfTiles();
+                lineForFile = "";
+                int j = -1;
+                foreach (Tile tile in listOfTiles)
+                {
+                    j += 1;
+                    if (j < listOfTiles.Count - 1)
+                    {
+                        lineForFile += tile.GetTerrain() + ",";
+
+                    }
+                    else
+                    {
+                        lineForFile += tile.GetTerrain();
+                    }
+                }
+                myStream.WriteLine(lineForFile);
+                int index = 0;
+                foreach (Tile tile in listOfTiles)
+                {
+                    if (tile.GetPieceInTile() != null)
+                    {
+                        Piece thePiece = tile.GetPieceInTile();
+                        lineForFile = "";
+                        if (thePiece.GetBelongsToPlayer1())
+                        {
+                            lineForFile += "1,";
+                        }
+                        else
+                        {
+                            lineForFile += "2,";
+                        }
+                        string piecetype = thePiece.GetPieceType();
+                        if (piecetype == "S" || piecetype == "s")
+                        {
+                            lineForFile += "Serf" + "," + index;
+                        }
+                        else if (piecetype == "B" || piecetype == "b")
+                        {
+                            lineForFile += "Baron" + "," + index;
+                        }
+                        else if (piecetype == "L" || piecetype == "l")
+                        {
+                            lineForFile += "LESS" + "," + index;
+                        }
+                        else if (piecetype == "P" || piecetype == "p")
+                        {
+                            lineForFile += "PBDS" + "," + index;
+                        }
+                        myStream.WriteLine(lineForFile);
+                    }
+                    index++;
+                }
+
+            }
+        }
         public static bool LoadGame(out Player player1, out Player player2, out HexGrid grid)
         {
             Console.Write("Enter the name of the file to load: ");
@@ -49,10 +117,10 @@ namespace HexBaronCS
                 {
                     lineFromFile = myStream.ReadLine();
                     items = lineFromFile.Split(',').ToList();
-                    player1 = new Player(items[0], Convert.ToInt32(items[1]), Convert.ToInt32(items[2]), Convert.ToInt32(items[3]), Convert.ToInt32(items[4]), 3);
+                    player1 = new Player(items[0], Convert.ToInt32(items[1]), Convert.ToInt32(items[2]), Convert.ToInt32(items[3]), Convert.ToInt32(items[4]));
                     lineFromFile = myStream.ReadLine();
                     items = lineFromFile.Split(',').ToList();
-                    player2 = new Player(items[0], Convert.ToInt32(items[1]), Convert.ToInt32(items[2]), Convert.ToInt32(items[3]), Convert.ToInt32(items[4]), 3);
+                    player2 = new Player(items[0], Convert.ToInt32(items[1]), Convert.ToInt32(items[2]), Convert.ToInt32(items[3]), Convert.ToInt32(items[4]));
                     int gridSize = Convert.ToInt32(myStream.ReadLine());
                     grid = new HexGrid(gridSize);
                     List<string> t = new List<string>(myStream.ReadLine().Split(','));
@@ -76,8 +144,8 @@ namespace HexBaronCS
             catch
             {
                 Console.WriteLine("File not loaded");
-                player1 = new Player("", 0, 0, 0, 0, 3);
-                player2 = new Player("", 0, 0, 0, 0, 3);
+                player1 = new Player("", 0, 0, 0, 0);
+                player2 = new Player("", 0, 0, 0, 0);
                 grid = new HexGrid(0);
                 return false;
             }
@@ -90,8 +158,8 @@ namespace HexBaronCS
                                                  , " ", " ", "#", "#", "#", "#", "~", "~", "~", "~", "~", " ", "#", " ", "#", " "};
             int gridSize = 8;
             grid = new HexGrid(gridSize);
-            player1 = new Player("Player One", 0, 10, 10, 5, 3);
-            player2 = new Player("Player Two", 1, 10, 10, 5, 3);
+            player1 = new Player("Player One", 0, 10, 10, 5);
+            player2 = new Player("Player Two", 1, 10, 10, 5);
             grid.SetUpGridTerrain(t);
             grid.AddPiece(true, "Baron", 0);
             grid.AddPiece(true, "Serf", 8);
@@ -197,42 +265,26 @@ namespace HexBaronCS
             {
                 Console.WriteLine(grid.GetGridAsString(player1Turn));
                 if (player1Turn)
-                {
                     Console.WriteLine(player1.GetName() + " state your three commands, pressing enter after each one.");
-                    Console.WriteLine("You have {0} chances left this game", player1.GetChances());
-                }
                 else
-                {
                     Console.WriteLine(player2.GetName() + " state your three commands, pressing enter after each one.");
-                    Console.WriteLine("You have {0} chances left this game", player2.GetChances());
-                }
                 for (int count = 1; count <= 3; count++)
                 {
-                    Console.Write("Enter command {0}: ", count);
-                    string commandAttempt = Console.ReadLine().ToLower();
-                    List<string> check = new List<string>(commandAttempt.Split(' '));
-                    validCommand = CheckCommandIsValid(check);
-                    if (!validCommand)
+                    Console.Write("Enter command: ");
+                    string commandToAdd = Console.ReadLine().ToLower();
+                    if (commandToAdd == "save")
                     {
-                        Console.WriteLine("Invalid command");
-                        if ((player1Turn) && (player1.GetChances() > 0))
-                        {
-                            player1.DeductChance();
-                            count--;
-                            Console.WriteLine("You have {0} chances left this game", player1.GetChances());
-                        }
-                        if ((!player1Turn) && (player2.GetChances() > 0))
-                        {
-                            player2.DeductChance();
-                            count--;
-                            Console.WriteLine("You have {0} chances left this game", player2.GetChances());
-                            if (player2.GetChances() == 0)
-                            {
-                                Console.WriteLine("No chances left, moving on to next player");
-                                break;
-                            }
-                        }
+                        count--;
+                        SaveGame(player1, player2, grid);
                     }
+                    commands.Add(commandToAdd);
+                }
+                foreach (var c in commands)
+                {
+                    List<string> items = new List<string>(c.Split(' '));
+                    validCommand = CheckCommandIsValid(items);
+                    if (!validCommand)
+                        Console.WriteLine("Invalid command");
                     else
                     {
                         int fuelChange = 0;
@@ -241,25 +293,16 @@ namespace HexBaronCS
                         string summaryOfResult;
                         if (player1Turn)
                         {
-                            summaryOfResult = grid.ExecuteCommand(check, ref fuelChange, ref lumberChange, ref supplyChange,
+                            summaryOfResult = grid.ExecuteCommand(items, ref fuelChange, ref lumberChange, ref supplyChange,
                                 player1.GetFuel(), player1.GetLumber(), player1.GetPiecesInSupply());
                             player1.UpdateLumber(lumberChange);
                             player1.UpdateFuel(fuelChange);
                             if (supplyChange == 1)
-                            {
                                 player1.RemoveTileFromSupply();
-                            }
-                            if ((fuelChange == 0 && lumberChange == 0 && supplyChange == 0) && player1.GetChances() > 0)
-                            {
-                                Console.WriteLine("Command failed but another chance is given");
-                                player1.DeductChance();
-                                Console.WriteLine("You have {0} chances left this game", player1.GetChances());
-                                count--;
-                            }
                         }
                         else
                         {
-                            summaryOfResult = grid.ExecuteCommand(check, ref fuelChange, ref lumberChange, ref supplyChange,
+                            summaryOfResult = grid.ExecuteCommand(items, ref fuelChange, ref lumberChange, ref supplyChange,
                                 player2.GetFuel(), player2.GetLumber(), player2.GetPiecesInSupply());
                             player2.UpdateLumber(lumberChange);
                             player2.UpdateFuel(fuelChange);
@@ -267,40 +310,32 @@ namespace HexBaronCS
                             {
                                 player2.RemoveTileFromSupply();
                             }
-                            if ((fuelChange == 0 && lumberChange == 0 && supplyChange == 0) && player2.GetChances() > 0)
-                            {
-                                Console.WriteLine("Command failed but another chance is given");
-                                player2.DeductChance();
-                                Console.WriteLine("You have {0} chances left this game", player2.GetChances());
-                                count--;
-                            }
-                            Console.WriteLine(summaryOfResult);
                         }
+                        Console.WriteLine(summaryOfResult);
                     }
                 }
 
-                    commands.Clear();
-                    player1Turn = !player1Turn;
-                    int player1VPsGained = 0;
-                    int player2VPsGained = 0;
-                    if (gameOver)
-                    {
-                        grid.DestroyPiecesAndCountVPs(ref player1VPsGained, ref player2VPsGained);
-                    }
-                    else
-                        gameOver = grid.DestroyPiecesAndCountVPs(ref player1VPsGained, ref player2VPsGained);
-                    player1.AddToVPs(player1VPsGained);
-                    player2.AddToVPs(player2VPsGained);
-                    Console.WriteLine("Player One current state - " + player1.GetStateString());
-                    Console.WriteLine("Player Two current state - " + player2.GetStateString());
-                    Console.Write("Press Enter to continue...");
-                    Console.ReadLine();
+                commands.Clear();
+                player1Turn = !player1Turn;
+                int player1VPsGained = 0;
+                int player2VPsGained = 0;
+                if (gameOver)
+                {
+                    grid.DestroyPiecesAndCountVPs(ref player1VPsGained, ref player2VPsGained);
                 }
-                while (!gameOver || !player1Turn) ;
-                Console.WriteLine(grid.GetGridAsString(player1Turn));
-                DisplayEndMessages(player1, player2);
+                else
+                    gameOver = grid.DestroyPiecesAndCountVPs(ref player1VPsGained, ref player2VPsGained);
+                player1.AddToVPs(player1VPsGained);
+                player2.AddToVPs(player2VPsGained);
+                Console.WriteLine("Player One current state - " + player1.GetStateString());
+                Console.WriteLine("Player Two current state - " + player2.GetStateString());
+                Console.Write("Press Enter to continue...");
+                Console.ReadLine();
             }
-        
+            while (!gameOver || !player1Turn);
+            Console.WriteLine(grid.GetGridAsString(player1Turn));
+            DisplayEndMessages(player1, player2);
+        }
 
         public static void DisplayEndMessages(Player player1, Player player2)
         {
@@ -987,20 +1022,29 @@ namespace HexBaronCS
             }
             return line;
         }
+
+        public int GetGridSize()
+        {
+            return size;
+        }
+
+        public List<Tile> GetListOfTiles()
+        {
+            return tiles;
+        }
     }
 
     class Player
     {
-        protected int piecesInSupply, fuel, VPs, lumber, Chances;
+        protected int piecesInSupply, fuel, VPs, lumber;
         protected string name;
 
-        public Player(string n, int v, int f, int l, int t, int c)
+        public Player(string n, int v, int f, int l, int t)
         {
             name = n;
             VPs = v;
             fuel = f;
             lumber = l;
-            Chances = c;
             piecesInSupply = t;
         }
 
@@ -1052,21 +1096,6 @@ namespace HexBaronCS
         public virtual void RemoveTileFromSupply()
         {
             piecesInSupply -= 1;
-        }
-
-        public int GetChances()
-        {
-            return Chances;
-        }
-
-        public void DeductChance()
-        {
-            Chances -= 1;
-        }
-
-        public void ResetChances()
-        {
-            Chances = 3;
         }
     }
 }

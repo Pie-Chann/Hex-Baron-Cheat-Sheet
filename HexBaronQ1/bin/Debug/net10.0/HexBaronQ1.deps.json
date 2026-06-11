@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "HexBaronQ1/1.0.0": {
+        "dependencies": {
+          "HexBaronQ2": "1.0.0"
+        },
         "runtime": {
           "HexBaronQ1.dll": {}
+        }
+      },
+      "HexBaronQ2/1.0.0": {
+        "runtime": {
+          "HexBaronQ2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "HexBaronQ1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HexBaronQ2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
